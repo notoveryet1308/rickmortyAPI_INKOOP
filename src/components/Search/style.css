@@ -1,0 +1,61 @@
+.search-container {
+  width: 70%;
+  position: fixed;
+  top: 15%;
+  left: 40%;
+  transform: translateX(-35%);
+  background: rgba(8, 8, 8, 0.9);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.closebtn {
+  display: inline;
+  position: absolute;
+  top: 40px;
+  right: 90px;
+  cursor: pointer;
+}
+
+.episode {
+  width: 100%;
+ 
+  border-radius: 10px;
+  padding: 1rem 0 0 2rem;
+}
+
+.episode p {
+  margin: 0;
+  font-size: 18px;
+}
+.character-img-search{
+  padding: 0 2rem 2rem;
+}
+
+.images-search{
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.image-search{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.image-search img{
+  width: 70px;
+  height: 70px;
+}
+
+.infos{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 5px;
+}

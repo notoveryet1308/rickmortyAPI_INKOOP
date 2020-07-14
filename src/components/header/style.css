@@ -1,0 +1,16 @@
+.input-box {
+  border: 2px solid #eee;
+  border-radius: 7px;
+}
+
+.input-box input {
+  width: 250px;
+  border: none;
+  outline: none;
+  background: inherit;
+  padding: 0.5px 10px;
+  font-size: 16px;
+}
+.searchbox {
+  cursor: pointer;
+}

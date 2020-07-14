@@ -1,0 +1,16 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.pagination .page {
+  padding: 5px 10px;
+  display: inline;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid #333;
+  font-size: 16px;
+  margin: 0 5px;
+}
